@@ -1,0 +1,14 @@
+[project]
+name = "mu5735"
+version = "0.1.0"
+description = "Basic Analysis for the crash of MU5735"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas>=1.4.2",
+    "shapely>=1.8.1.post1"
+]
+
+[project.optional-dependencies]
+fr24 = ["urllib3>=1.26.9"]
+kml = ["fastkml>=0.12", "colour>=0.1.5"]

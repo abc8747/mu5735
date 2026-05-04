@@ -1,10 +1,11 @@
+from datetime import datetime
+
 import pandas
+from colour import Color
 from fastkml import kml
 from fastkml.geometry import Geometry
-from fastkml.styles import Style, LineStyle
-from shapely.geometry import Point, LineString
-from colour import Color
-from datetime import datetime
+from fastkml.styles import LineStyle, Style
+from shapely.geometry import LineString, Point
 
 colours = list(Color("#ff0000").range_to(Color("#00ffff"), 256))
 
